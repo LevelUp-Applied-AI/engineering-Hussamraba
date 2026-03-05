@@ -28,3 +28,20 @@ source .venv/bin/activate   # Mac/Linux
 # or: source .venv/Scripts/activate  (Windows Git Bash)
 pip install -r requirements-prework.txt
 ```
+## How to run
+
+1. Create and activate a virtual environment:
+   - Mac/Linux:
+     ```bash
+     python -m venv .venv
+     source .venv/bin/activate
+     ```
+   - Windows (Git Bash):
+     ```bash
+     python -m venv .venv
+     source .venv/Scripts/activate
+     ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements-prework.txt
